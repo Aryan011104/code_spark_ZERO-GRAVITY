@@ -1,0 +1,10 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/Aryan011104/code_spark_ZERO-GRAVITY
+	fetch = +refs/heads/*:refs/remotes/origin/*
