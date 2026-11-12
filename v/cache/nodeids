@@ -1,0 +1,14 @@
+[
+  "backend/tests/test_disease.py::test_healthy_plant_assessment",
+  "backend/tests/test_disease.py::test_low_quality_blurry_image_rejection",
+  "backend/tests/test_disease.py::test_supported_disease_potato_late_blight",
+  "backend/tests/test_disease.py::test_unsupported_crop_handling",
+  "backend/tests/test_fertilizer.py::test_coffee_fertilizer_workflow",
+  "backend/tests/test_fertilizer.py::test_maize_unit_conversion_and_guntas",
+  "backend/tests/test_fertilizer.py::test_potato_fertilizer_workflow",
+  "backend/tests/test_rag.py::test_banned_pesticide_refusal",
+  "backend/tests/test_rag.py::test_grounded_rag_query",
+  "backend/tests/test_rag.py::test_out_of_context_categorization",
+  "backend/tests/test_rag.py::test_prompt_injection_defense",
+  "backend/tests/test_telephony.py::test_full_ivr_call_session_flow"
+]
