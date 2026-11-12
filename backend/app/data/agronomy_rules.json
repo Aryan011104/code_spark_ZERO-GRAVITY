@@ -1,0 +1,174 @@
+{
+  "coffee": {
+    "crop_name": "Coffee (Coffea arabica / canephora)",
+    "scientific_name": "Coffea arabica",
+    "authority": "Coffee Board of India (CCRI) Advisory Bulletin No. 44",
+    "base_nutrients_kg_per_ha": {
+      "N": 120.0,
+      "P2O5": 90.0,
+      "K2O": 120.0
+    },
+    "soil_rating_thresholds_kg_per_ha": {
+      "N": { "low": 280.0, "medium_max": 560.0 },
+      "P": { "low": 10.0, "medium_max": 25.0 },
+      "K": { "low": 110.0, "medium_max": 280.0 }
+    },
+    "stages": {
+      "bearing": {
+        "description": "Yielding adult bushes (>4 years old)",
+        "adjustment_factor": 1.0
+      },
+      "young": {
+        "description": "Young non-bearing plantation (1-3 years)",
+        "adjustment_factor": 0.5
+      }
+    },
+    "split_schedule": [
+      {
+        "stage": "Pre-Monsoon (April-May)",
+        "timing_days_or_event": "Immediately after blossom showers / before heavy monsoon",
+        "n_percent": 40.0,
+        "p_percent": 50.0,
+        "k_percent": 40.0,
+        "instructions": "Broadcast uniformly in drip circle (50-60 cm from plant base) and lightly incorporate into soil."
+      },
+      {
+        "stage": "Mid-Monsoon Break (August-September)",
+        "timing_days_or_event": "During August break in rains",
+        "n_percent": 30.0,
+        "p_percent": 0.0,
+        "k_percent": 30.0,
+        "instructions": "Apply nitrogen and potash top-dressing to maintain berry swelling and support new flush."
+      },
+      {
+        "stage": "Post-Monsoon (October-November)",
+        "timing_days_or_event": "After recession of South-West monsoon",
+        "n_percent": 30.0,
+        "p_percent": 50.0,
+        "k_percent": 30.0,
+        "instructions": "Supports berry development and hardening of next year's bearing wood."
+      }
+    ],
+    "citations": [
+      {
+        "title": "Advisory on Fertilizer Management in Coffee Plantations",
+        "author": "Central Coffee Research Institute (CCRI)",
+        "institution": "Coffee Board of India",
+        "year": "2022",
+        "url": "https://www.coffeeboard.gov.in"
+      }
+    ]
+  },
+  "potato": {
+    "crop_name": "Potato (Solanum tuberosum)",
+    "scientific_name": "Solanum tuberosum",
+    "authority": "ICAR - Central Potato Research Institute (CPRI) Guidelines & FAO Bulletin 16",
+    "base_nutrients_kg_per_ha": {
+      "N": 180.0,
+      "P2O5": 100.0,
+      "K2O": 150.0
+    },
+    "soil_rating_thresholds_kg_per_ha": {
+      "N": { "low": 250.0, "medium_max": 500.0 },
+      "P": { "low": 15.0, "medium_max": 35.0 },
+      "K": { "low": 125.0, "medium_max": 300.0 }
+    },
+    "stages": {
+      "tuber_production": {
+        "description": "Standard main crop commercial tuber production",
+        "adjustment_factor": 1.0
+      },
+      "seed_crop": {
+        "description": "Seed potato multiplication crop",
+        "adjustment_factor": 0.85
+      }
+    },
+    "split_schedule": [
+      {
+        "stage": "Basal Application",
+        "timing_days_or_event": "At planting time in furrows",
+        "n_percent": 50.0,
+        "p_percent": 100.0,
+        "k_percent": 100.0,
+        "instructions": "Band apply 5 cm to the side and 5 cm below seed tubers. Avoid direct contact with seed tubers."
+      },
+      {
+        "stage": "Top Dressing & Earthing-up",
+        "timing_days_or_event": "30-35 days after emergence (tuber initiation stage)",
+        "n_percent": 50.0,
+        "p_percent": 0.0,
+        "k_percent": 0.0,
+        "instructions": "Apply remaining Nitrogen before earthing-up. Avoid application when leaves are wet to prevent scorching."
+      }
+    ],
+    "citations": [
+      {
+        "title": "Nutrient Management in Potato Cultivation",
+        "author": "Central Potato Research Institute",
+        "institution": "Indian Council of Agricultural Research (ICAR)",
+        "year": "2023",
+        "url": "https://cpri.icar.gov.in"
+      }
+    ]
+  },
+  "maize": {
+    "crop_name": "Maize / Corn (Zea mays)",
+    "scientific_name": "Zea mays L.",
+    "authority": "ICAR - Indian Institute of Maize Research (IIMR) & CIMMYT Nutrient Expert",
+    "base_nutrients_kg_per_ha": {
+      "N": 120.0,
+      "P2O5": 60.0,
+      "K2O": 50.0
+    },
+    "soil_rating_thresholds_kg_per_ha": {
+      "N": { "low": 280.0, "medium_max": 560.0 },
+      "P": { "low": 11.0, "medium_max": 25.0 },
+      "K": { "low": 110.0, "medium_max": 280.0 }
+    },
+    "stages": {
+      "hybrid": {
+        "description": "High-yielding hybrid maize",
+        "adjustment_factor": 1.0
+      },
+      "composite": {
+        "description": "Open-pollinated composite maize",
+        "adjustment_factor": 0.8
+      }
+    },
+    "split_schedule": [
+      {
+        "stage": "Basal Application",
+        "timing_days_or_event": "At sowing in seed furrows",
+        "n_percent": 33.3,
+        "p_percent": 100.0,
+        "k_percent": 100.0,
+        "instructions": "Place fertilizer 5-7 cm below seed line. Supplies starter phosphorus and potassium for vigorous rooting."
+      },
+      {
+        "stage": "Knee-High Stage (V6)",
+        "timing_days_or_event": "30-35 days after sowing (rapid vegetative growth)",
+        "n_percent": 33.3,
+        "p_percent": 0.0,
+        "k_percent": 0.0,
+        "instructions": "Band apply nitrogen 10-12 cm away from plant rows followed by light hoeing/intercultivation."
+      },
+      {
+        "stage": "Tasseling / Silking Stage",
+        "timing_days_or_event": "50-55 days after sowing (flowering / ear development)",
+        "n_percent": 33.4,
+        "p_percent": 0.0,
+        "k_percent": 0.0,
+        "instructions": "Crucial top-dressing for cob filling. Apply when soil has adequate moisture."
+      }
+    ],
+    "citations": [
+      {
+        "title": "Good Agricultural Practices for Maize Production in India",
+        "author": "Indian Institute of Maize Research",
+        "institution": "ICAR-IIMR",
+        "year": "2021",
+        "url": "https://iimr.icar.gov.in"
+      }
+    ]
+  }
+}
